@@ -13,20 +13,20 @@ public class Triangle extends Polygon {
         return "Triangle{}";
     }
 
-    // TODO: Step 2a: Uncomment this overridden method declaration.
-    /*
+    // Step 2a: Uncomment this overridden method declaration.
+    
      @Override
      public void overlaps(Polygon other) {
          overlapsHelper("Triangle", this.toString(), other.toString());
      }
-    */
+   
 
-    // TODO: Step 4a: Uncomment this overloaded method declaration.
-    /*
+    // Step 4a: Uncomment this overloaded method declaration.
+    
      public void overlaps(Triangle other) {
          overlapsHelper("Triangle2", this.toString(), other.toString());
      }
-    */
+   
 
     @Override
     public void paint(Graphics g){

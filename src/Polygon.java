@@ -19,7 +19,7 @@ public abstract class Polygon extends JComponent{
         return "Polygon{}";
     }
 
-    // TODO: Step 1a: Understand this method declaration and its helper.
+    // Step 1a: Understand this method declaration and its helper.
     public void overlaps(Polygon other){
         overlapsHelper("Polygon", this.toString(), other.toString());
     }
