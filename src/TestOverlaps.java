@@ -31,7 +31,7 @@ public class TestOverlaps {
         //   You can comment out the lines from above (10-13) using the same command.
         //   Then run the program again, and see if your predictions were correct.
         //   Can you explain these outputs in terms of static and dynamic types?
-        System.out.println("\n\n\n");
+        System.out.println("\n\n");
         Polygon polyTriangle = new Triangle(1,4);
 
         square.overlaps(polyTriangle);          // square.overlaps:square{} vs triangle{}
